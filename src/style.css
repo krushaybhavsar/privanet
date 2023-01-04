@@ -1,0 +1,348 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--black-text);
+  background-color: var(--light-grey-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  --primary-navy: #1A212F;
+  --accent-orange: #F4694D;
+  --light-grey-bg: #E8EFF2;
+  --primary-white: #F8FBFC;
+  --black-text: #121212;
+  --white-text: #FFFFFF;
+  --main-dash-sidebar-width: 230px;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Black'), local('Neometric-Black'),
+    url('fonts/Neometric/Neometric-Black.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Extra Light'), local('Neometric-ExtraLight'),
+    url('fonts/Neometric/Neometric-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Heavy'), local('Neometric-Heavy'),
+    url('fonts/Neometric/Neometric-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Black Italic'), local('Neometric-BlackItalic'),
+    url('fonts/Neometric/Neometric-BlackItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Hairline Italic'), local('Neometric-HairlineItalic'),
+    url('fonts/Neometric/Neometric-HairlineItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Light Italic'), local('Neometric-LightItalic'),
+    url('fonts/Neometric/Neometric-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Extra Bold Italic'), local('Neometric-ExtraBoldItalic'),
+    url('fonts/Neometric/Neometric-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Heavy Italic'), local('Neometric-HeavyItalic'),
+    url('fonts/Neometric/Neometric-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Extra Bold'), local('Neometric-ExtraBold'),
+    url('fonts/Neometric/Neometric-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Extra Light Italic'), local('Neometric-ExtraLightItalic'),
+    url('fonts/Neometric/Neometric-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Bold'), local('Neometric-Bold'),
+    url('fonts/Neometric/Neometric-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Medium'), local('Neometric-Medium'),
+    url('fonts/Neometric/Neometric-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Italic'), local('Neometric-Italic'),
+    url('fonts/Neometric/Neometric-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Hairline'), local('Neometric-Hairline'),
+    url('fonts/Neometric/Neometric-Hairline.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Bold Italic'), local('Neometric-BoldItalic'),
+    url('fonts/Neometric/Neometric-BoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Light'), local('Neometric-Light'),
+    url('fonts/Neometric/Neometric-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Regular'), local('Neometric-Regular'),
+    url('fonts/Neometric/Neometric-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neometric';
+  src: local('Neometric Medium Italic'), local('Neometric-MediumItalic'),
+    url('fonts/Neometric/Neometric-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'),
+    url('fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Thin Italic'), local('Poppins-ThinItalic'),
+    url('fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Thin'), local('Poppins-Thin'),
+    url('fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Light Italic'), local('Poppins-LightItalic'),
+    url('fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Light'), local('Poppins-Light'),
+    url('fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Medium Italic'), local('Poppins-MediumItalic'),
+    url('fonts/Poppins/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+    url('fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+    url('fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+    url('fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Italic'), local('Poppins-Italic'),
+    url('fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'),
+    url('fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'),
+    url('fonts/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'),
+    url('fonts/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'),
+    url('fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
+    url('fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Black Italic'), local('Poppins-BlackItalic'),
+    url('fonts/Poppins/Poppins-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Black'), local('Poppins-Black'),
+    url('fonts/Poppins/Poppins-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Bold'), local('Poppins-Bold'),
+    url('fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,17 @@
+.main-dashboard-screen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-dashboard-screen__content {
+    height: 100%;
+    width: calc(100% - var(--main-dash-sidebar-width));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: var(--light-grey-bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-weight: normal;
+  font-style: normal;
+  color: var(--black-text);
+}
