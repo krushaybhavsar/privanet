@@ -23,6 +23,57 @@ html {
   --main-dash-sidebar-width: 230px;
 }
 
+.titlebar {
+  height: 30px;
+  /* background: #329ea3; */
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 32px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.titlebar-button>img {
+  width: 11px;
+  height: 11px;
+  object-fit: contain;
+}
+
+.titlebar-button:hover {
+  opacity: 1;
+}
+
+.splash {
+  background-color: var(--primary-navy);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.splash>h1 {
+  font-size: 4rem;
+  color: var(--white-text);
+  font-weight: 800;
+  font-family: 'Neometric', sans-serif;
+}
+
 @font-face {
   font-family: 'Neometric';
   src: local('Neometric Black'), local('Neometric-Black'),

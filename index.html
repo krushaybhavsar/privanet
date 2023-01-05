@@ -7,6 +7,17 @@
     <title>Privanet</title>
   </head>
   <body>
+    <div data-tauri-drag-region class="titlebar">
+      <div class="titlebar-button" id="titlebar-minimize">
+        <img src="/assets/window-minimize-icon.png" alt="minimize" />
+      </div>
+      <div class="titlebar-button" id="titlebar-maximize">
+        <img src="/assets/window-maximize-icon.png" alt="maximize" />
+      </div>
+      <div class="titlebar-button" id="titlebar-close">
+        <img src="/assets/window-close-icon.png" alt="close" />
+      </div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

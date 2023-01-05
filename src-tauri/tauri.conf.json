@@ -3,7 +3,8 @@
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
     "devPath": "http://localhost:1420",
-    "distDir": "../dist"
+    "distDir": "../dist",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "privanet",
@@ -55,10 +56,22 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "minHeight": 600,
         "resizable": true,
         "title": "Privanet",
-        "width": 800
+        "minWidth": 800,
+        "maximized": true,
+        "hiddenTitle": true,
+        "decorations": false,
+        "visible": false
+      },
+      {
+        "width": 600,
+        "height": 350,
+        "decorations": false,
+        "url": "splashscreen.html",
+        "label": "splashscreen",
+        "center": true
       }
     ]
   }
