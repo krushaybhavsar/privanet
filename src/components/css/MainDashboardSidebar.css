@@ -11,14 +11,20 @@
 
 .main-dashboard-sidebar__header {
     width: calc(100% - 100px);
-    padding: 10px 48px 10px 0;
+    padding: 10px 12px 10px 0;
     height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 30px 0 22px 0;
+    margin: 30px 24px 22px 0;
     /* background-color: var(--accent-orange); */
+}
+
+.main-dashboard-sidebar__header>img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
 }
 
 .main-dashboard-sidebar__header>h1 {
@@ -31,15 +37,15 @@
 }
 
 .main-dashboard-sidebar__tab {
-    width: calc(100% - 100px);
+    width: calc(100% - 72px);
     height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     border-radius: 4px;
-    padding: 10px 0 10px 48px;
-    margin-bottom: 16px;
+    padding: 12px 0 12px 14px;
+    margin-bottom: 12px;
     cursor: pointer;
     opacity: 0.7;
     background-color: var(--primary-navy);
@@ -53,6 +59,13 @@
 
 .main-dashboard-sidebar__tab:hover {
     opacity: 1;
+}
+
+.main-dashboard-sidebar__tab__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    stroke: var(--white-text);
 }
 
 .main-dashboard-sidebar__tab__text {

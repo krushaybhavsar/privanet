@@ -2,7 +2,7 @@ import React from "react";
 import "./css/MyFilesFragment.css";
 
 const MyFilesFragment = () => {
-  return <div>MyFilesFragment</div>;
+  return <div>My Files Fragment</div>;
 };
 
 export default MyFilesFragment;
