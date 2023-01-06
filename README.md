@@ -1,7 +1,15 @@
-# Tauri + React + Typescript
+# Privalink
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+A decentralized data transfering and storage application built using the InterPlanetary File System (IPFS) protocol and Tauri
+</br>
+</br>
 
-## Recommended IDE Setup
+## Current application state
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+<img src="https://user-images.githubusercontent.com/68528325/210945184-39ae14c0-c4c5-44a6-b35e-430eee054be5.png" />
+
+## To-do
+
+- Add file drop area
+- Generate rust private and public keys using ECC
+- Setup rust command to receive files and encrypt using public key generated from ECC

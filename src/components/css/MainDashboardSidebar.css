@@ -18,13 +18,12 @@
     align-items: center;
     justify-content: flex-start;
     margin: 30px 24px 22px 0;
-    /* background-color: var(--accent-orange); */
 }
 
 .main-dashboard-sidebar__header>img {
     width: 32px;
     height: 32px;
-    margin-right: 10px;
+    margin-right: 14px;
 }
 
 .main-dashboard-sidebar__header>h1 {

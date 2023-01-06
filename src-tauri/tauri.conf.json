@@ -63,7 +63,8 @@
         "maximized": true,
         "hiddenTitle": true,
         "decorations": false,
-        "visible": false
+        "visible": false,
+        "fileDropEnabled": true
       },
       {
         "width": 600,
