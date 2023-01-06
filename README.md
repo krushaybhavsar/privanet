@@ -1,4 +1,4 @@
-# Privalink
+# Privanet
 
 A decentralized data transfering and storage application built using the InterPlanetary File System (IPFS) protocol and Tauri
 </br>
