@@ -1,0 +1,9 @@
+.my-files-side-panel {
+    height: 100%;
+    width: var(--side-panel-width);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 10px;
+    background: var(--white-text);
+    position: relative;
+}

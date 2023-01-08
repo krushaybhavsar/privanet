@@ -35,6 +35,7 @@
     margin: 0;
 }
 
+.main-dashboard-sidebar__upload,
 .main-dashboard-sidebar__tab {
     width: calc(100% - 72px);
     height: fit-content;
@@ -67,10 +68,15 @@
     stroke: var(--white-text);
 }
 
+.main-dashboard-sidebar__upload__button__text,
 .main-dashboard-sidebar__tab__text {
     color: var(--white-text);
     text-decoration: none;
     font-weight: 400;
     letter-spacing: 0.025em;
     font-size: 16px;
+}
+
+.main-dashboard-sidebar__upload__button__text {
+    color: var(--white-text);
 }

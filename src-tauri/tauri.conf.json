@@ -59,7 +59,7 @@
         "minHeight": 600,
         "resizable": true,
         "title": "Privanet",
-        "minWidth": 800,
+        "minWidth": 1000,
         "maximized": true,
         "hiddenTitle": true,
         "decorations": false,
