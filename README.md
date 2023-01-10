@@ -10,6 +10,8 @@ A decentralized data transfering and storage application built using the InterPl
 
 ## To-do
 
-- Add file drop area
+- Check for duplicate files in frontend
+- Setup rust command to receive files from ReactJS frontend
 - Generate rust private and public keys using ECC
-- Setup rust command to receive files and encrypt using public key generated from ECC
+- Encrypt files using generated ECC keys
+- Upload files to IPFS
