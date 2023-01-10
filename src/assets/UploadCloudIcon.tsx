@@ -9,9 +9,9 @@ export const UploadCloudIcon = ({ height = 24, width = 24, ...props }) => {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       {...props}
     >
       <polyline points="16 16 12 12 8 16"></polyline>

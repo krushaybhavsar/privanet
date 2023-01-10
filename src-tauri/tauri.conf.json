@@ -64,7 +64,7 @@
         "hiddenTitle": true,
         "decorations": false,
         "visible": false,
-        "fileDropEnabled": true
+        "fileDropEnabled": false
       },
       {
         "width": 600,

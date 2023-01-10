@@ -11,6 +11,10 @@
 
 body {
   margin: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 html {
@@ -74,6 +78,24 @@ html {
   color: var(--white-text);
   font-weight: 800;
   font-family: 'Neometric', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(26, 33, 47, 0.1);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 33, 47, 0.2);
 }
 
 @font-face {
